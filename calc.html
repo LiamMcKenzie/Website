@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            height: 60%;
+            border: none;
+            resize: none;
+            font-size: 2em; 
+            padding: 20px;
+            line-height: 1.5;
+            background-color: transparent;
+            outline: none; 
+            color: lavender;
+        }
+
+        .result {
+            width: 100%;
+            font-size: 2em;
+            color: #4bfae0;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            font-family: "Lexend", sans-serif;;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: lavender; text-align: center;">Calc</h1>
+    <div style="display: flex; flex-direction: column; align-items: center; height: 90vh;">
+        <textarea autofocus="true" spellcheck="false" placeholder="Type a calculation..."></textarea>
+        <p class="result" id="result">Result will appear here...</p>
+    </div>
+    
+    <p style="color: lavender; text-align: center;">(calc is short for calculator, I'm just using slang)</p>
+    <script>
+        function setRandomBackgroundColor() {
+            const hue = 250;
+            const saturation = 10; 
+            const lightness = 25; 
+            document.body.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+        }
+
+        // Call the function to set the background color when the page loads
+        window.onload = setRandomBackgroundColor;
+
+        // Real-time calculation function
+        const textarea = document.querySelector('textarea');
+        const resultDiv = document.getElementById('result');
+
+        textarea.addEventListener('input', () => {
+            const expression = textarea.value;
+
+            try {
+                // Evaluate the expression and display the result
+                const result = eval(expression);
+                resultDiv.textContent = isNaN(result) ? "Result will appear here..." : `= ${result}`;
+            } catch {
+                resultDiv.textContent = "Result will appear here...";
+            }
+        });
+    </script>
+</body>
+</html>
