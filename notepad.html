@@ -42,8 +42,14 @@
             document.body.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
         }
 
+        const textarea = document.querySelector('textarea');
+
         // Call the function to set the background color when the page loads
-        window.onload = setRandomBackgroundColor;
+        window.onload = function() {
+            textarea.value = '';
+
+            setRandomBackgroundColor();
+        }
     </script>
 
 </body>

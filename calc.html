@@ -35,6 +35,7 @@
             font-family: "Lexend", sans-serif;;
         }
     </style>
+    
 </head>
 <body>
     <h1 style="color: lavender; text-align: center;">Calc</h1>
@@ -53,18 +54,24 @@
         }
 
         // Call the function to set the background color when the page loads
-        window.onload = setRandomBackgroundColor;
-
+        
+        
+        
         // Real-time calculation function
         const textarea = document.querySelector('textarea');
         const resultDiv = document.getElementById('result');
+
+        window.onload = function() {
+            textarea.value = '';
+            setRandomBackgroundColor();
+        }
 
         textarea.addEventListener('input', () => {
             const expression = textarea.value;
 
             try {
                 // Evaluate the expression and display the result
-                const result = eval(expression);
+                const result = new Function(`return (${expression});`)();
                 resultDiv.textContent = isNaN(result) ? "Result will appear here..." : `= ${result}`;
             } catch {
                 resultDiv.textContent = "Result will appear here...";
