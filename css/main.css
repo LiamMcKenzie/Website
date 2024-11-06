@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Lexend";
+    src: url("fonts/Lexend-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+}
