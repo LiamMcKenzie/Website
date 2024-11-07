@@ -1,8 +1,23 @@
 @font-face {
     font-family: "Lexend";
-    src: url("fonts/Lexend-Regular.ttf") format("truetype");
+    src: url('../fonts/Lexend-Regular.ttf') format("truetype");
 }
 
-body {
-    font-family: "Lexend", sans-serif;
+@font-face {
+    font-family: "Inconsolata";
+    src: url("../fonts/Inconsolata-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/raleway.regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CrimsonPro";
+    src: url("../fonts/CrimsonPro-Regular.ttf") format("truetype");
+}
+
+/* body {
+    font-family: "Lexend", sans-serif;
+} */
