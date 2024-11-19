@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>talking phones</title>
+    <title>talking phones — Lotus</title>
     <link rel="stylesheet" href="css/main.css">
     <style>
         * {
@@ -17,22 +17,41 @@
             background-color: black;
             color: lavender;
             font-family: "CrimsonPro";
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: left;
         }
 
-        p {
-            text-align: center;
-            font-size: 0.5em;
+        .container {
+            width: 600px;
+            margin: 0 auto;
+
         }
+
+        .centered-image {
+            display: block;
+            width: 75%;
+            margin: 10px auto;
+        }
+
+
 
     </style>
 </head>
 <body>
     <main>
-        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 90vh; text-align: left;">
-            <a href="https://drive.google.com/file/d/1CFF7G-XU7XilbAMCkYRrX9N2HGtmb76Z/view?usp=drive_link" target="_blank" >
-                <img src="img/gifs/talking-phones.gif" style="width: 30vw; display: block;">
-            </a>
-            <p>spoilers: it doesn't mean anything</p>
+        <div>
+            <div style="margin: 20px auto; width: 600px;">
+                <a href="https://drive.google.com/file/d/1CFF7G-XU7XilbAMCkYRrX9N2HGtmb76Z/view?usp=drive_link" target="_blank">
+                    <img src="img/gifs/talking-phones.gif" style="width: 100%;">
+                </a>
+                <h3>talking phones</h3>
+                <p style="text-align: right;">november 6th 2024</p>
+            </div>
+        </div>
+        <div class="container">
+            <p style="text-align: center;">spoilers: it doesn't mean anything</p>
         </div>
     </main>
     
