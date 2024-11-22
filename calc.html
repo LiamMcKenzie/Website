@@ -15,7 +15,7 @@
         
         body
         {
-            background-color: #1a1a1a;
+            background-color: rgb(60, 57, 70);
             color: lavender;
             font-family: "Inconsolata";
         }
@@ -54,25 +54,13 @@
     </div>
     
     <p style="color: lavender; text-align: center;">(calc is short for calculator, I'm just using slang)</p>
-    <script>
-        function setRandomBackgroundColor() {
-            const hue = 250;
-            const saturation = 10; 
-            const lightness = 25; 
-            document.body.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
-        }
-
-        // Call the function to set the background color when the page loads
-        
-        
-        
+    <script>        
         // Real-time calculation function
         const textarea = document.querySelector('textarea');
         const resultDiv = document.getElementById('result');
 
         window.onload = function() {
             textarea.value = '';
-            setRandomBackgroundColor();
         }
 
         textarea.addEventListener('input', () => {
