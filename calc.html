@@ -68,7 +68,8 @@
 
             try {
                 // Evaluate the expression and display the result
-                const result = new Function(`return (${expression});`)();
+                //const result = new Function(`return (${expression});`)();
+                const result = eval(expression);
                 resultDiv.textContent = isNaN(result) ? "Result will appear here..." : `= ${result}`;
             } catch {
                 resultDiv.textContent = "Result will appear here...";
