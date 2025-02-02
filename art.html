@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus - Art</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <header  style="text-align: center;">
+        <a href="/">Lotus</a>
+    </header>
+
+    <section class="gallery" id="gallery">
+        <!-- Images will be loaded dynamically here -->
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="imageModal">
+        <span class="close" id="closeModal">&times;</span>
+
+        <!-- Navigation buttons -->
+        <button class="prev" id="prevImage">&#10094;</button>
+
+        <img id="modalImage" src="" alt="Art Piece">
+
+        <div class="modal-info">
+            <h2 id="modalName"></h2>
+            <p id="modalDate"></p>
+            <p id="modalDescription"></p>
+        </div>
+
+        <button class="next" id="nextImage">&#10095;</button>
+    </div>
+
+
+    <script src="js/gallery.js"></script>
+</body>
+</html>
