@@ -10,7 +10,7 @@ body {
 
 header {
     /* width: 100%; */
-    padding: 1rem;
+    padding: 1rem 1rem 1rem calc(1rem + (100vw - 100%));
     display: flex;
     justify-content: center;
     gap: 2rem;
