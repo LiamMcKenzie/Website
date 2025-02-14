@@ -9,7 +9,7 @@ const imageDatabase = [ //oldest to newest
     {
         name: '"poke floats"',
         date: "June 22nd 2024",
-        description: "based on a skybox from smash melee. \n I really like how the sun turned out, the rest of it is mostly unfinished",
+        description: "Based on a skybox from smash melee. \n I really like how the sun turned out, the rest of it is mostly unfinished",
         src: "img/gallery/Poke Floats v3.png"
     },
     {
@@ -43,9 +43,9 @@ const imageDatabase = [ //oldest to newest
         src: "img/gallery/heart 2.png"
     },
     {
-        name: '"shadow holdng a katana"',
+        name: '"shadow holding a katana"',
         date: "January 18th 2025",
-        description: "made in blender. Made over the course of a couple hours. Most of my time was spent rigging the shadow model from the ps2 game. The shaders are super basic and I wanted to do more. I used automatic freestyle outlines which I don't think turned out great. Anyway I thought this was cool. Shadow is cool.",
+        description: "Made in blender. Made over the course of a couple hours. Most of my time was spent rigging the shadow model from the ps2 game. The shaders are super basic and I wanted to do more. I used automatic freestyle outlines which I don't think turned out great. Anyway I thought this was cool. Shadow is cool.",
         src: "img/gallery/shadow 1.png"
     }
 ];
