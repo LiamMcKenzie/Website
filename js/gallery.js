@@ -37,7 +37,7 @@ const imageDatabase = [ //oldest to newest
         src: "img/gallery/do you still know where you_re going (version 1).png"
     },
     {
-        name: '"a heart with no deeper meaning"',
+        name: '"heart"',
         date: "January 17th 2025",
         description: "Made with blender. I was attempting to challenge myself to make a piece of art in roughly an hour. Not a huge fan of how inconsistent the lighting shader is.",
         src: "img/gallery/heart 2.png"
