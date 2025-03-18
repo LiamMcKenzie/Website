@@ -47,6 +47,12 @@ const imageDatabase = [ //oldest to newest
         date: "January 18th 2025",
         description: "Made in blender. Made over the course of a couple hours. Most of my time was spent rigging the shadow model from the ps2 game. The shaders are super basic and I wanted to do more. I used automatic freestyle outlines which I don't think turned out great. Anyway I thought this was cool. Shadow is cool.",
         src: "img/gallery/shadow 1.png"
+    },
+    {
+        name: '"tahu"',
+        date: "March 13th 2025",
+        description: "Made from an unfinished tahu animation. I added lighting and applied a dither filter. I think it looks cool.",
+        src: "img/gallery/2025-03-13 Tahu.png"
     }
 ];
 
