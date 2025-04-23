@@ -53,6 +53,18 @@ const imageDatabase = [ //oldest to newest
         date: "March 13th 2025",
         description: "Made from an unfinished tahu animation. I added lighting and applied a dither filter. I think it looks cool.",
         src: "img/gallery/2025-03-13 Tahu.png"
+    },
+    {
+        name: '"Megastructure"',
+        date: "March 15th 2025",
+        description: "",
+        src: "img/gallery/2025-03-15 Megastructure.png"
+    },
+    {
+        name: '"Graduates"',
+        date: "March 18th 2025",
+        description: "",
+        src: "img/gallery/2025-03-18 Graduates.png"
     }
 ];
 
