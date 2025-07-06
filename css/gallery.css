@@ -38,13 +38,8 @@ h1 {
 }
 
 .image {
-    width: 100%;
-    /* overflow: hidden; */
-    /* display: block; */
-    /* position: relative; */
-    /* margin-bottom: 15px; */
-    height: auto;
     overflow: hidden;
+    aspect-ratio: 4 / 3;
 }
 
 .image img {
