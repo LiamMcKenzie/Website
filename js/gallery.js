@@ -1,31 +1,31 @@
 // Simple JS database to store the image data
 const imageDatabase = [ //oldest to newest
     {
-        name: '"bedroom"',
+        name: 'bedroom',
         date: "January 30th 2023",
-        description: "",
+        description: "Made in blender. My first real attempt at making art, this was intended to be used in a game I never properly started on.",
         src: "img/gallery/bedroom.png"
     },
     {
-        name: '"poke floats"',
+        name: 'poke floats',
         date: "June 22nd 2024",
         description: "Based on a skybox from smash melee. \n I really like how the sun turned out, the rest of it is mostly unfinished",
         src: "img/gallery/Poke Floats v3.png"
     },
     {
-        name: '"I don\'t know where I\'m going"',
+        name: 'I don\'t know where I\'m going',
         date: "June 23nd 2024",
         description: "",
         src: "img/gallery/dont know where im going v1.png"
     },
     {
-        name: '"mongering"',
+        name: 'mongering',
         date: "July 11th 2024",
         description: "I drew over the cover art for \"fishmonger\" by underscores. (great album btw) :3",
         src: "img/gallery/mongering.png"
     },
     {
-        name: '"wii fishing"',
+        name: 'wii fishing',
         date: "August 5th 2024",
         description: "I like the fishing minigame from wii play. Its missing a tree because I got bored of working on this.",
         src: "img/gallery/wii fishing 1.png"
@@ -43,29 +43,36 @@ const imageDatabase = [ //oldest to newest
         src: "img/gallery/heart 2.png"
     },
     {
-        name: '"shadow holding a katana"',
+        name: 'shadow holding a katana',
         date: "January 18th 2025",
         description: "Made in blender. Made over the course of a couple hours. Most of my time was spent rigging the shadow model from the ps2 game. The shaders are super basic and I wanted to do more. I used automatic freestyle outlines which I don't think turned out great. Anyway I thought this was cool. Shadow is cool.",
         src: "img/gallery/shadow 1.png"
     },
     {
-        name: '"tahu"',
+        name: 'tahu',
         date: "March 13th 2025",
         description: "Made from an unfinished tahu animation. I added lighting and applied a dither filter. I think it looks cool.",
         src: "img/gallery/2025-03-13 Tahu.png"
     },
     {
-        name: '"Megastructure"',
+        name: 'Megastructure',
         date: "March 15th 2025",
-        description: "",
+        description: "Made in blender.",
         src: "img/gallery/2025-03-15 Megastructure.png"
     },
     {
-        name: '"Graduates"',
+        name: 'Graduates',
         date: "March 18th 2025",
         description: "",
         src: "img/gallery/2025-03-18 Graduates.png"
+    },
+    {
+        name: '"real beach"',
+        date: "August 29th 2025",
+        description: "Acrylic on canvas panel. Inspired by the ending of MyHouse.WAD. I will eventually take a better photo of this painting.",
+        src: "img/gallery/2025-08-29 real beach.jpg"
     }
+
 ];
 
 let currentIndex = 0; // Keeps track of the current image index
