@@ -4,49 +4,49 @@ const imageDatabase = [ //oldest to newest
         name: 'bedroom',
         date: "January 30th 2023",
         description: "Made in blender. My first real attempt at making art, this was intended to be used in a game I never properly started on.",
-        src: "img/gallery/bedroom.png"
+        src: "img/gallery/2023-01-30 bedroom.png"
     },
     {
         name: 'poke floats',
         date: "June 22nd 2024",
         description: "Based on a skybox from smash melee. \n I really like how the sun turned out, the rest of it is mostly unfinished",
-        src: "img/gallery/Poke Floats v3.png"
+        src: "img/gallery/2024-6-22 Poke Floats.png"
     },
     {
         name: 'I don\'t know where I\'m going',
         date: "June 23nd 2024",
         description: "",
-        src: "img/gallery/dont know where im going v1.png"
+        src: "img/gallery/2024-6-23 dont know where im going.png"
     },
     {
         name: 'mongering',
         date: "July 11th 2024",
         description: "I drew over the cover art for \"fishmonger\" by underscores. (great album btw) :3",
-        src: "img/gallery/mongering.png"
+        src: "img/gallery/2024-7-11 mongering.png"
     },
     {
         name: 'wii fishing',
         date: "August 5th 2024",
         description: "I like the fishing minigame from wii play. Its missing a tree because I got bored of working on this.",
-        src: "img/gallery/wii fishing 1.png"
+        src: "img/gallery/2024-8-5 wii fishing.png"
     },
     {
         name: '"do you still know where you\'re going?"',
         date: "November 19th 2024",
         description: "First attempt at making art in blender. I made this while relearning the program. The capsule is meant to resemble a player collider from unity. I took plenty of reference photo. The environment is very basic.",
-        src: "img/gallery/do you still know where you_re going (version 1).png"
+        src: "img/gallery/2024-11-19 do you still know where you're going.png"
     },
     {
         name: '"heart"',
         date: "January 17th 2025",
         description: "Made with blender. I was attempting to challenge myself to make a piece of art in roughly an hour. Not a huge fan of how inconsistent the lighting shader is.",
-        src: "img/gallery/heart 2.png"
+        src: "img/gallery/2025-1-17 heart.png"
     },
     {
         name: 'shadow holding a katana',
         date: "January 18th 2025",
         description: "Made in blender. Made over the course of a couple hours. Most of my time was spent rigging the shadow model from the ps2 game. The shaders are super basic and I wanted to do more. I used automatic freestyle outlines which I don't think turned out great. Anyway I thought this was cool. Shadow is cool.",
-        src: "img/gallery/shadow 1.png"
+        src: "img/gallery/2025-1-18 shadow.png"
     },
     {
         name: 'tahu',
