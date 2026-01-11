@@ -3,8 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
-    color: black;
+    background: #769ffe;
+    background: linear-gradient(90deg, rgb(119, 179, 254) 0%, rgba(118, 159, 254, 1) 100%);
+    color: white;
     font-family: "raleway";
 }
 
@@ -14,10 +15,11 @@ header {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    text-shadow: 2px 2px 2px #0000002b;
 }
 
 header a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -40,6 +42,12 @@ h1 {
 .image {
     aspect-ratio: 4 / 3;
     overflow: hidden;
+    box-shadow: 5px 5px 2px #0000002b;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.image:hover {
+    box-shadow: 10px 10px 2px #0000001b;
+    transform: scale(1.02);
 }
 
 .image img {
