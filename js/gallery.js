@@ -55,13 +55,13 @@ const imageDatabase = [ //oldest to newest
         src: "img/gallery/2025-03-13 Tahu.png"
     },
     {
-        name: 'Megastructure',
+        name: 'megastructure',
         date: "March 15th 2025",
         description: "Made in blender.",
         src: "img/gallery/2025-03-15 Megastructure.png"
     },
     {
-        name: 'Graduates',
+        name: 'graduates',
         date: "March 18th 2025",
         description: "",
         src: "img/gallery/2025-03-18 Graduates.png"
@@ -71,6 +71,12 @@ const imageDatabase = [ //oldest to newest
         date: "August 29th 2025",
         description: "Acrylic on canvas panel. Inspired by the ending of MyHouse.WAD. I will eventually take a better photo of this painting.",
         src: "img/gallery/2025-08-29 real beach.jpg"
+    },
+    {
+        name: 'sign',
+        date: "January 18th 2026",
+        description: "Made in blender.",
+        src: "img/gallery/2026-01-18 sign.png"
     }
 
 ];
