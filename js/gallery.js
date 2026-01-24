@@ -28,7 +28,7 @@ const imageDatabase = [ //oldest to newest
         name: 'wii fishing',
         date: "August 5th 2024",
         description: "I like the fishing minigame from wii play. Its missing a tree because I got bored of working on this.",
-        src: "img/gallery/2024-8-5 wii fishing.png"
+        src: "img/gallery/2024-8-05 wii fishing.png"
     },
     {
         name: '"do you still know where you\'re going?"',
@@ -51,7 +51,7 @@ const imageDatabase = [ //oldest to newest
     {
         name: 'tahu',
         date: "March 13th 2025",
-        description: "Made from an unfinished tahu animation. I added lighting and applied a dither filter. I think it looks cool.",
+        description: "Made in blender. Made from an unfinished tahu animation. I added lighting and applied a dither filter. I think it looks cool.",
         src: "img/gallery/2025-03-13 Tahu.png"
     },
     {
@@ -63,14 +63,56 @@ const imageDatabase = [ //oldest to newest
     {
         name: 'graduates',
         date: "March 18th 2025",
-        description: "",
+        description: "Made in blender.",
         src: "img/gallery/2025-03-18 Graduates.png"
+    },
+    {
+        name: 'star',
+        date: "June 7th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-06-07 star.jpg"
+    },
+    {
+        name: 'eye',
+        date: "June 8th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-06-08 eye.jpg"
+    },
+    {
+        name: 'window',
+        date: "June 9th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-06-09 window.jpg"
+    },
+    {
+        name: 'galaxy',
+        date: "June 10th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-06-10 galaxy.jpg"
+    },
+    {
+        name: 'silver streetlight',
+        date: "July 21st 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-07-21 silver streetlight.jpg"
+    },
+    {
+        name: 'street',
+        date: "July 28th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-07-28 street.jpg"
     },
     {
         name: '"real beach"',
         date: "August 29th 2025",
         description: "Acrylic on canvas panel. Inspired by the ending of MyHouse.WAD. I will eventually take a better photo of this painting.",
         src: "img/gallery/2025-08-29 real beach.jpg"
+    },
+    {
+        name: 'stomach',
+        date: "September 5th 2025",
+        description: "Acrylic on canvas panel.",
+        src: "img/gallery/2025-09-05 stomach.jpg"
     },
     {
         name: 'sign',
