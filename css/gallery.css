@@ -6,7 +6,7 @@ body {
     background: #769ffe;
     background: linear-gradient(90deg, rgb(119, 179, 254) 0%, rgba(118, 159, 254, 1) 100%);
     color: white;
-    font-family: "raleway";
+    font-family: Arial, sans-serif;
 }
 
 header {
